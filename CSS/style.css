@@ -1,0 +1,58 @@
+
+body
+{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #197278;
+}
+.navbar
+{
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #197278;
+  border:none;
+}
+.hero-image
+{
+  background: url(https://picsum.photos/1800/900/?random) no-repeat center;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+table
+{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th
+{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #197278;
+}
+
+.button1
+{
+  color: #2E4057;
+}
+
+.hero-text
+{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+footer
+{
+  background-color: #BFB48F;
+  padding: 25px;
+}
